@@ -9,7 +9,7 @@
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>log/avoider.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>avoider.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>log/avoider.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>10</maxHistory>
             <totalSizeCap>5GB</totalSizeCap>
         </rollingPolicy>
